@@ -1,0 +1,6 @@
+c:\users\dmohl\documents\visual studio 2010\Projects\FSharpIoC\FSharpIoC\obj\Debug\ResolveAssemblyReference.cache
+c:\users\dmohl\documents\visual studio 2010\Projects\FSharpIoC\FSharpIoC\bin\Debug\FSharpIoC.XML
+c:\users\dmohl\documents\visual studio 2010\Projects\FSharpIoC\FSharpIoC\bin\Debug\FSharpIoC.dll
+c:\users\dmohl\documents\visual studio 2010\Projects\FSharpIoC\FSharpIoC\bin\Debug\FSharpIoC.pdb
+c:\users\dmohl\documents\visual studio 2010\Projects\FSharpIoC\FSharpIoC\obj\Debug\FSharpIoC.dll
+c:\users\dmohl\documents\visual studio 2010\Projects\FSharpIoC\FSharpIoC\obj\Debug\FSharpIoC.pdb
