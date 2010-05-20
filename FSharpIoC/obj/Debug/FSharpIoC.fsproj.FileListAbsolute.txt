@@ -4,3 +4,9 @@ c:\users\dmohl\documents\visual studio 2010\Projects\FSharpIoC\FSharpIoC\bin\Deb
 c:\users\dmohl\documents\visual studio 2010\Projects\FSharpIoC\FSharpIoC\bin\Debug\FSharpIoC.pdb
 c:\users\dmohl\documents\visual studio 2010\Projects\FSharpIoC\FSharpIoC\obj\Debug\FSharpIoC.dll
 c:\users\dmohl\documents\visual studio 2010\Projects\FSharpIoC\FSharpIoC\obj\Debug\FSharpIoC.pdb
+C:\git\FSharpIoC\FSharpIoC\bin\Debug\FSharpIoC.XML
+C:\git\FSharpIoC\FSharpIoC\bin\Debug\FSharpIoC.dll
+C:\git\FSharpIoC\FSharpIoC\bin\Debug\FSharpIoC.pdb
+C:\git\FSharpIoC\FSharpIoC\obj\Debug\ResolveAssemblyReference.cache
+C:\git\FSharpIoC\FSharpIoC\obj\Debug\FSharpIoC.dll
+C:\git\FSharpIoC\FSharpIoC\obj\Debug\FSharpIoC.pdb

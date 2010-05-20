@@ -1,4 +1,4 @@
-﻿namespace FSharpIoc
+﻿namespace FSharpIoC
 
 open System
 open System.Collections.Generic

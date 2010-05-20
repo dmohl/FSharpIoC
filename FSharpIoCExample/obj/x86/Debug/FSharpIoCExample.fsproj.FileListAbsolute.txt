@@ -1,0 +1,9 @@
+C:\git\FSharpIoC\FSharpIoCExample\bin\Debug\FSharpIoCExample.XML
+C:\git\FSharpIoC\FSharpIoCExample\bin\Debug\FSharpIoCExample.exe
+C:\git\FSharpIoC\FSharpIoCExample\bin\Debug\FSharpIoCExample.pdb
+C:\git\FSharpIoC\FSharpIoCExample\bin\Debug\FSharpIoC.dll
+C:\git\FSharpIoC\FSharpIoCExample\bin\Debug\FSharpIoC.pdb
+C:\git\FSharpIoC\FSharpIoCExample\bin\Debug\FSharpIoC.xml
+C:\git\FSharpIoC\FSharpIoCExample\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\git\FSharpIoC\FSharpIoCExample\obj\x86\Debug\FSharpIoCExample.exe
+C:\git\FSharpIoC\FSharpIoCExample\obj\x86\Debug\FSharpIoCExample.pdb
