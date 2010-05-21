@@ -11,7 +11,8 @@ module FSharpIoCModule =
         match theConstructor.GetParameters() with
         | cstorParams when cstorParams.Length = 0 -> Activator.CreateInstance(newType)
         | cstorParams -> cstorParams 
-                         |> Seq.map(fun (paramInfo:ParameterInfo) -> (Resolve paramInfo.ParameterType typeContainer)) 
+                         |> Seq.map(fun (paramInfo:ParameterInfo) -> 
+                                (Resolve paramInfo.ParameterType typeContainer)) 
                          |> Seq.toArray 
                          |> theConstructor.Invoke
 
