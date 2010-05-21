@@ -7,7 +7,10 @@ open System.Reflection
 module FSharpIoCModule = 
     let rec Resolve requestedType (typeContainer:Dictionary<Type,Type>) =
         let newType = typeContainer.[requestedType]
-        let theConstructor = newType.GetConstructors().[0]
+        let constructors = newType.GetConstructors() 
+                           |> Array.sortBy (fun c -> c.GetParameters().Length) 
+                           |> Array.rev
+        let theConstructor = constructors.[0]
         match theConstructor.GetParameters() with
         | cstorParams when cstorParams.Length = 0 -> Activator.CreateInstance(newType)
         | cstorParams -> cstorParams 
