@@ -5,9 +5,6 @@ open System.Collections.Generic
 open System.Reflection
 
 module FSharpIoCModule = 
-//    let FindAllTypesToRegister () =
-//        let types = AppDomain.CurrentDomain.GetAssemblies() |> Array.fold(fun assembly types -> assembly.GetTypes()) 
-//        types        
     let rec Resolve requestedType (typeContainer:Dictionary<Type,Type>) =
         let newType = typeContainer.[requestedType]
         let theConstructor = newType.GetConstructors().[0]
@@ -27,6 +24,3 @@ type Container =
         FSharpIoCModule.Resolve requestedType x.typeContainer
     member x.Resolve<'a> () =
         FSharpIoCModule.Resolve typeof<'a> x.typeContainer :?> 'a
-//    member x.AutoRegister () =
-//        FSharpIoCModule.FindAllTypesToRegister()
-        //|> List.iter(fun (registeredType, requestedType) -> (do x.Register<typeof<registeredType>, typeof<requestedType>>))

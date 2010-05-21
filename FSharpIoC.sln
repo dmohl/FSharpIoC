@@ -5,6 +5,8 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FSharpIoC", "FSharpIoC\FSha
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FSharpIoCExample", "FSharpIoCExample\FSharpIoCExample.fsproj", "{DDA1E28A-6C22-459F-8FED-A1C44A7F8771}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpIoCExample", "CSharpIoCExample\CSharpIoCExample.csproj", "{C66CACA3-3FAC-4B8D-9CCB-D8F1AAD52722}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +37,16 @@ Global
 		{DDA1E28A-6C22-459F-8FED-A1C44A7F8771}.Release|Mixed Platforms.Build.0 = Release|x86
 		{DDA1E28A-6C22-459F-8FED-A1C44A7F8771}.Release|x86.ActiveCfg = Release|x86
 		{DDA1E28A-6C22-459F-8FED-A1C44A7F8771}.Release|x86.Build.0 = Release|x86
+		{C66CACA3-3FAC-4B8D-9CCB-D8F1AAD52722}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{C66CACA3-3FAC-4B8D-9CCB-D8F1AAD52722}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{C66CACA3-3FAC-4B8D-9CCB-D8F1AAD52722}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{C66CACA3-3FAC-4B8D-9CCB-D8F1AAD52722}.Debug|x86.ActiveCfg = Debug|x86
+		{C66CACA3-3FAC-4B8D-9CCB-D8F1AAD52722}.Debug|x86.Build.0 = Debug|x86
+		{C66CACA3-3FAC-4B8D-9CCB-D8F1AAD52722}.Release|Any CPU.ActiveCfg = Release|x86
+		{C66CACA3-3FAC-4B8D-9CCB-D8F1AAD52722}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{C66CACA3-3FAC-4B8D-9CCB-D8F1AAD52722}.Release|Mixed Platforms.Build.0 = Release|x86
+		{C66CACA3-3FAC-4B8D-9CCB-D8F1AAD52722}.Release|x86.ActiveCfg = Release|x86
+		{C66CACA3-3FAC-4B8D-9CCB-D8F1AAD52722}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

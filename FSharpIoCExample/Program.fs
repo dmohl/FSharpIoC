@@ -10,12 +10,12 @@ type Person =
 type IPersonFactory =
     abstract CreatePerson : unit -> Person
 
-type PersonFactory() =
+type PersonFactory() = 
     interface IPersonFactory with
         member x.CreatePerson () = 
             {FirstName = "TestFirst"; LastName = "TestLast"}
 
-type PersonService =
+type PersonService = 
     val personFactory : IPersonFactory
     new (personFactory) = {personFactory = personFactory}
     member x.GetPerson () = 
@@ -28,4 +28,3 @@ let personService = iocContainer.Resolve<PersonService>()
 let person = personService.GetPerson()
 do Console.WriteLine("The persons name is {0} {1}", person.FirstName, person.LastName)
 do Console.ReadLine()
-
