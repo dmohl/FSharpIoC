@@ -7,7 +7,11 @@
     </boolean>
   </SettingsComponent>
   <RecentFiles>
-    <RecentFiles />
+    <RecentFiles>
+      <File id="D2082633-68CA-4C7E-9CF7-7CA94CF86ACE/f:FSharpIoC.fs" caret="1324" fromTop="10" />
+      <File id="DDA1E28A-6C22-459F-8FED-A1C44A7F8771/f:Program.fs" caret="914" fromTop="10" />
+      <File id="C66CACA3-3FAC-4B8D-9CCB-D8F1AAD52722/f:Program.cs" caret="1378" fromTop="8" />
+    </RecentFiles>
     <RecentEdits />
   </RecentFiles>
   <NAntValidationSettings>

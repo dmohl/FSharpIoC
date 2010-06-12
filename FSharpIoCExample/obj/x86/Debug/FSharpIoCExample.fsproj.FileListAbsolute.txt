@@ -7,3 +7,12 @@ C:\git\FSharpIoC\FSharpIoCExample\bin\Debug\FSharpIoC.xml
 C:\git\FSharpIoC\FSharpIoCExample\obj\x86\Debug\ResolveAssemblyReference.cache
 C:\git\FSharpIoC\FSharpIoCExample\obj\x86\Debug\FSharpIoCExample.exe
 C:\git\FSharpIoC\FSharpIoCExample\obj\x86\Debug\FSharpIoCExample.pdb
+C:\Users\dmohl\Documents\Visual Studio 2010\Projects\FSharpIoC\FSharpIoCExample\bin\Debug\FSharpIoCExample.XML
+C:\Users\dmohl\Documents\Visual Studio 2010\Projects\FSharpIoC\FSharpIoCExample\bin\Debug\FSharpIoCExample.exe
+C:\Users\dmohl\Documents\Visual Studio 2010\Projects\FSharpIoC\FSharpIoCExample\bin\Debug\FSharpIoCExample.pdb
+C:\Users\dmohl\Documents\Visual Studio 2010\Projects\FSharpIoC\FSharpIoCExample\bin\Debug\FSharpIoC.dll
+C:\Users\dmohl\Documents\Visual Studio 2010\Projects\FSharpIoC\FSharpIoCExample\bin\Debug\FSharpIoC.pdb
+C:\Users\dmohl\Documents\Visual Studio 2010\Projects\FSharpIoC\FSharpIoCExample\bin\Debug\FSharpIoC.xml
+C:\Users\dmohl\Documents\Visual Studio 2010\Projects\FSharpIoC\FSharpIoCExample\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\dmohl\Documents\Visual Studio 2010\Projects\FSharpIoC\FSharpIoCExample\obj\x86\Debug\FSharpIoCExample.exe
+C:\Users\dmohl\Documents\Visual Studio 2010\Projects\FSharpIoC\FSharpIoCExample\obj\x86\Debug\FSharpIoCExample.pdb

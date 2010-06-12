@@ -5,12 +5,16 @@ open System.Collections.Generic
 open System.Reflection
 
 module FSharpIoCModule = 
-    let rec Resolve requestedType (typeContainer:Dictionary<Type,Type>) =
-        let newType = typeContainer.[requestedType]
+    let ResolveType requestedType (typeContainer:Dictionary<Type,Type>) =
+        typeContainer.[requestedType]
+    let FindMostComplexConstructor (newType:Type) =
         let constructors = newType.GetConstructors() 
                            |> Array.sortBy (fun c -> c.GetParameters().Length) 
                            |> Array.rev
-        let theConstructor = constructors.[0]
+        constructors.[0]
+    let rec Resolve requestedType (typeContainer:Dictionary<Type,Type>) =
+        let newType = ResolveType requestedType typeContainer
+        let theConstructor = newType |> FindMostComplexConstructor
         match theConstructor.GetParameters() with
         | cstorParams when cstorParams.Length = 0 -> Activator.CreateInstance(newType)
         | cstorParams -> cstorParams 
